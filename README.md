@@ -8,6 +8,3 @@ Click play.
 # Issues
 It uses HTML5 player, so if the HTML5 player doesn't support AVI, this one too. <br/>
 If your browser doesn't support HTML5, this will not work for you.
-
-# See it in action
-<a href="https://dlvp.alkane.xyz">https://dlvp.alkane.xyz</a>
