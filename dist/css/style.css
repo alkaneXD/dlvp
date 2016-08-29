@@ -1,0 +1,16 @@
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid green;
+     box-shadow: 0 1px 0 0 green;
+  }
+   .input-field .prefix.active {
+     color: green;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
