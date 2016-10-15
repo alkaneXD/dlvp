@@ -4,11 +4,11 @@
   <title>DLVP</title>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <meta content="Alkane, Orgen" name="author">
+  <meta content="Alkane" name="author">
   <meta content="direct link, video, play, play direct link, movie, direct" name="keywords">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="dist/css/materialize.min.css" rel="stylesheet" type="text/css">
-  <link href="dist/css/style.css" rel="stylesheet" type="text/css">
+  <link href="dist/css/style.min.css" rel="stylesheet">
 </head>
 <body>
   <main>
@@ -24,8 +24,8 @@
           </div>
         </div>
       </form>
-      <div class="center" hidden="" id="hide">
-        <video class="videocon" controls id="player" preload="auto" autoplay><source id="src" type="video/mp4">.</video>
+      <div class="center video-div" hidden="" id="hide">
+        <video class="video-js responsive-video" id="player" preload="auto" controls autoplay style="height:100% !important;width:100% !important;"><source id="src">.</video>
       </div>
     </div>
   </main>
@@ -39,15 +39,11 @@
       </div>
     </div>
   </footer>
-  <script src="dist/js/jquery-2.1.1.min.js">
-  </script> 
-  <script src="dist/js/jquery.wait.js">
-  </script> 
-  <script src="dist/js/materialize.min.js">
-  </script> 
-  <script src="dist/js/submit.js">
-  </script> 
-  <script src="dist/js/controls.js">
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script src="http://vjs.zencdn.net/5.11.7/video.js"></script>
+  <script src="dist/js/jquery.wait.min.js"></script>
+  <script src="dist/js/submit.min.js"></script> 
+  <script src="dist/js/controls.min.js"></script>
 </body>
 </html>
